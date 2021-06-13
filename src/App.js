@@ -1,9 +1,10 @@
 import './assets/styles/scss/App.scss';
+import SearchBook from './components/SearchBook'
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <SearchBook></SearchBook>
     </div>
   );
 }
