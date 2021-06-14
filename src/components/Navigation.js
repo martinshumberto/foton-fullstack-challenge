@@ -3,8 +3,8 @@ import React from 'react';
 class Navigation extends React.Component {
   render() {
     return (
-      <div className="bg-white absolute w-full bottom-0 py-5">
-        <ul className="flex text-center text-xs">
+      <div className="bg-white absolute w-full bottom-0 py-2">
+        <ul className="flex text-center" style={{ 'font-size': '11px' }}>
           <li className="flex flex-1 text-center flex-col items-center">
             <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" clipRule="evenodd" d="M1 6.22222L9 0L17 6.22222V16C17 16.9818 16.2041 17.7778 15.2222 17.7778H2.77778C1.79594 17.7778 1 16.9818 1 16V6.22222Z" stroke="black" strokeWidth="2" strokeLinecap="round"/>

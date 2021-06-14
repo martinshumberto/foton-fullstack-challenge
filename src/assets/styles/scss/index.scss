@@ -10,9 +10,11 @@
 @include font-face("SF Pro Display", "../../fonts/SFProDisplay/SFProDisplay-Regular", 400, normal, "modern");
 @include font-face("SF Pro Display", "../../fonts/SFProDisplay/SFProDisplay-Bold", 600, normal, "modern");
 
+@font-face {font-family: "Apple Color Emoji"; src: url("//db.onlinewebfonts.com/t/5ab304ade0d4f62d027d12464ca69443.eot"); src: url("//db.onlinewebfonts.com/t/5ab304ade0d4f62d027d12464ca69443.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab304ade0d4f62d027d12464ca69443.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab304ade0d4f62d027d12464ca69443.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab304ade0d4f62d027d12464ca69443.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab304ade0d4f62d027d12464ca69443.svg#Apple Color Emoji") format("svg"); }
+
 body {
   margin: 0;
-  font-family: 'SF Pro Text', 'Helvetica', 'Arial', 'sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  font-family: 'SF Pro Text', 'SF Pro Display', 'Helvetica', 'Arial', 'sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFFCF9;
