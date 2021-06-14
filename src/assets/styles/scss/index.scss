@@ -1,20 +1,23 @@
 @import 'App';
+@import '_mixins';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@include font-face("SF Pro Text", "../../fonts/SFProText/SFProText-Regular", 400, normal, "modern");
 
-@font-face {font-family: "SF Pro Text"; src: url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot"); src: url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.woff") format("woff"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1c45e28f8e86cc89876f003b953cc3e9.svg#SF Pro Text") format("svg"); }
+@include font-face("SF Pro Display", "../../fonts/SFProDisplay/SFProDisplay-Regular", 400, normal, "modern");
+@include font-face("SF Pro Display", "../../fonts/SFProDisplay/SFProDisplay-Bold", 600, normal, "modern");
 
 body {
   margin: 0;
-  font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  font-family: 'SF Pro Text', 'Helvetica', 'Arial', 'sans-serif','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFFCF9;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
