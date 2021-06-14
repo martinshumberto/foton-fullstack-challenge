@@ -13,7 +13,7 @@ class App extends React.Component {
             <Input placeholder='Search book' name="search-book" id="searck-book"></Input>
           </div>
           <div className="my-9">
-            <h1 className="text-2xl text-gray-700">Hi, <span className="text-red-400 font-semibold">Mehmed Ai Fatih</span> <span style={{ 'fontFamily': 'Roboto' }}>👋</span></h1>
+            <h1 className="text-3xl text-gray-700">Hi, <span className="text-red-400 font-semibold">Mehmed Ai Fatih</span> <span style={{ 'fontFamily': 'Roboto' }}>👋</span></h1>
           </div>
           <ListingBooks></ListingBooks>
         </div>

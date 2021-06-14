@@ -3,7 +3,7 @@ import React from 'react';
 class Navigation extends React.Component {
   render() {
     return (
-      <div className="bg-white absolute w-full bottom-0 py-6">
+      <div className="bg-white absolute w-full bottom-0 py-5">
         <ul className="flex text-center text-xs">
           <li className="flex flex-1 text-center flex-col items-center">
             <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
